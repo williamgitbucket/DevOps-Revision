@@ -1,0 +1,24 @@
+First shell program
+###########################################
+Finding the Ram memory
+              total        used        free      shared  buff/cache   available
+Mem:            990         114         381           6         494         730
+Swap:          1023           0        1023
+
+###########################################
+Finding disk utilization
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 484M     0  484M   0% /dev
+tmpfs                    496M     0  496M   0% /dev/shm
+tmpfs                    496M  6.7M  489M   2% /run
+tmpfs                    496M     0  496M   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  1.7G   49G   4% /
+/dev/sda1               1014M  168M  847M  17% /boot
+/dev/mapper/centos-home   28G   33M   28G   1% /home
+vagrant                   98G   59G   40G  60% /vagrant
+opt_scriptdir_            98G   59G   40G  60% /opt/scriptdir
+tmpfs                    100M     0  100M   0% /run/user/1000
+
+###########################################
+Thats all for first scrip
+
